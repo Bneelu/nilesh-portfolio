@@ -35,16 +35,20 @@ ul {
   margin-left: 2rem;
 }
 
-.social-links {
-  margin-top: 1rem;
-}
-
 .social-links a {
-  margin: 0 10px;
+  margin: 0 15px;
   text-decoration: none;
   color: #1abc9c;
   font-weight: bold;
+  display: inline-flex;
+  align-items: center;
   transition: color 0.3s;
+}
+
+.social-links a img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
 }
 
 .social-links a:hover {
